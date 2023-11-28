@@ -1,0 +1,20 @@
+// Screens
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+$xxl: 1536px;
+
+// Sizing
+$app-height: 800px;
+
+@mixin app-width {
+     width: 100%;
+
+     @media (min-width: $lg) {
+          width: 80% ;
+     }
+}
+
+// Colors
+$white: #ffff;

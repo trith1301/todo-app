@@ -1,0 +1,15 @@
+@import "./variables.scss";
+
+.app {
+  height: $app-height;
+
+  padding-top: 100px;
+
+  .app__container {
+    @include app-width;
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+  }
+}
