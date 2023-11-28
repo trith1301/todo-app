@@ -1,4 +1,4 @@
-# GeekUp Todo App
+# Todo App
 
 This is a simple React project, using Vite, and AntDesign components library.
 
